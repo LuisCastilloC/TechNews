@@ -65,3 +65,41 @@ ul{
     flex: 1;
     margin-left: 20px;
 }
+
+/*ShowCase*/
+.hr{
+    padding: 10px 0;
+}
+
+.showcase{
+    width: 100%;
+    background: url('img/pexels-cottonbro-studio-8721318.jpg') no-repeat center center/cover;
+    height: 550px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.btn{
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #262626;
+    color: #ffffff;
+    font-size: 15px;
+    border: 1px solid #fff;
+    margin: 10px 0;
+}
+
+.btn:hover{
+    opacity: .1;
+}
+
+.showcase h2,
+.showcase p{
+    margin-bottom: 10px;
+}
